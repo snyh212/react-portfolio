@@ -31,9 +31,9 @@ function Contact(){
             <header className="App-header">
                 <h2>Contact Me:</h2>
                 <ul>
-                    <li><a href='mailto: snyh121@gmail.com'>snyh121@gmail.com</a></li>
-                    <li><a href='https://www.linkedin.com/in/shmuel-hoffman-254b0223b/' target='_blank' rel='noreferrer'>LinkIn</a></li>
-                    <li><a href='https://github.com/snyh212?tab=repositories' target='_blank' rel='noreferrer'>GitHub</a></li>
+                    <li><a className="link" href='mailto: snyh121@gmail.com'>snyh121@gmail.com</a></li>
+                    <li><a className="link" href='https://www.linkedin.com/in/shmuel-hoffman-254b0223b/' target='_blank' rel='noreferrer'>LinkIn</a></li>
+                    <li><a className="link" href='https://github.com/snyh212?tab=repositories' target='_blank' rel='noreferrer'>GitHub</a></li>
                 </ul>
                 
                 <form onSubmit={(e) => {handleSubmit(e)}}>

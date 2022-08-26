@@ -8,12 +8,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+    <div>
 
     <div id="header">
 
       <Header />
 
-      <main>
+      <main id="content">
 
         <About />
         <Portfolio />
@@ -21,10 +22,11 @@ function App() {
         <Resume />
 
       </main>
-
+      </div>
       <Footer />
+      </div>
 
-    </div>
+
 
   );
 }
