@@ -10,24 +10,24 @@ function App() {
   return (
     <div>
 
-    <div id="header">
+      <div id="header">
 
-      <Header />
+        <Header />
 
-      <main id="content">
+        <main id="content">
 
-        <About />
-        <Portfolio />
-        <Contact />
-        <Resume />
+          <About />
+          <Portfolio />
+          <Contact />
+         <Resume />
 
-      </main>
+        </main>
+
       </div>
+
       <Footer />
-      </div>
 
-
-
+    </div>
   );
 }
 
