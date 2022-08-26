@@ -14,13 +14,48 @@
 }
 
 .App-header {
-  background-color: #282c34;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
   padding-bottom: 10px;
+}
+
+#header {
+  display: flex;
+}
+
+#image {
+  width: 500%;
+}
+
+
+ul {
+  justify-content: flex-end;
+  list-style: none;
+  position: sticky;
+  top: 0;
+}
+
+
+form {
+ border:2px solid green;
+ padding: 30px;
+}
+
+footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-attachment: scroll;
+  padding: 3.9px 26px;
+  background-color: white;
+}
+
+div {
+  background-color: #282c34;
+  color: white;
 }
 
 @keyframes App-logo-spin {

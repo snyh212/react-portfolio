@@ -2,8 +2,8 @@
 
 function Portfolio(){
     return(
-        <div>
-            <p></p>
+        <div id="projects">
+            <h2>Projects</h2>
         </div>
     )
 }

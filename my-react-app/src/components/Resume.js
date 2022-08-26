@@ -2,7 +2,7 @@
 
 function Resume(){
     return(
-        <div>
+        <div id="resume">
             <h2>Front-End</h2>
             <ul>
                 <li className="FEskill">HTML</li>
